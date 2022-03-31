@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AutoChart",
+  "description":"AutoChart performs automatic visualization of your input data.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "img/logo-32.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "permissions": ["clipboardRead", "clipboardWrite"],
+  "icons": {
+    "16": "img/logo-16.png",
+    "32": "img/logo-32.png",
+    "64": "img/logo-64.png",
+    "128": "img/logo-128.png"
+  }
+}
